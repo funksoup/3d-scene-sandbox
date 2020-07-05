@@ -8,13 +8,13 @@
   <body>
     <a-scene>
       <a-assets>
-        <img id="sky" src="loft-scene/lac-barbue.jpg" rotation="0 25 0" >
+        <img id="sky" src="loft-scene/lac-barbue.jpg" >
 
         <a-asset-item id="loft" src="loft-scene/scene.gltf"></a-asset-item>
       </a-assets>
 
       <!-- Sky -->
-      <a-sky src="#sky"></a-sky>
+      <a-sky src="#sky" rotation="0 25 0"></a-sky>
 
       <!-- Camera -->
       <a-entity rotation="0 180 0" position="-2 0 2">
