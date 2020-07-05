@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>   
+    <title>Basic primitives</title>    
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      
+      <a-assets>
+        <img id="geo" src="https://cdn.glitch.com/project-avatar/9462697b-6d65-470b-91da-26cb33506084.png?1593457920793">
+        <img id="fish" src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Flogo-night.svg">
+        <img id="aframe" src="https://cdn.glitch.com/project-avatar/c8ac88a4-215c-4064-84c4-946e96b63ace.png?2017-03-22T23:31:09.908Z">
+      </a-assets>
+      
+     <a-image src="#geo"
+              position="0 1.5 -3"
+              width="1"
+              height="0.75"
+              scale="3 3 1">
+      </a-image>
+      
+      <a-curvedimage scr="#geo"
+                     color="#555555"
+                     theta-length="90"
+                     theta-start="135"
+                     radius="0.707"
+                     position="0 1.5 0"
+                     >
+      </a-curvedimage>
+
+      
+      
+    </a-scene>
+  </body>
+</html>

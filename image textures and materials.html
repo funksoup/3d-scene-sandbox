@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>   
+    <title>Basic primitives</title>    
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      
+      <a-assets>
+        <img id="hello-world" src="https://cdn.glitch.com/project-avatar/9462697b-6d65-470b-91da-26cb33506084.png?1593457920793">
+        <img id="katabi" src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Flogo-night.svg">
+      </a-assets>
+      
+      <!-- light blue box -->
+      <a-box color="#8EACBB"
+      	src="#hello-world"
+        repeat="1 1"
+        normal-map="#hello-world"
+        normal-texture-repeat="1 1"
+        normal-scale="1 -1"
+        roughness="0.5"    
+      	width="4" height="4" depth="4"
+      	position="-2 1.5 -9"
+        scale="1 1 1">
+      </a-box>
+      <a-box material= "color: #FFFFFF;
+      	                src: #katabi;
+                        repeat: 2 2;
+                        normal-map: #katabi;
+                        normal-texture=repeat: 2 2;
+                        normal-scale: 1 -1;
+                        roughness: 0.9"
+      	width="4" height="4" depth="4"
+      	position="2 1.5 -9"
+        scale="1 1 1">
+      </a-box>
+      
+      <!-- blue sphere -->
+      <a-sphere material="color: #AA0000;
+                          roughness: 0.2
+                          shader: standard"
+                radius="0.5"
+                position="-2 1.5 -6">
+      </a-sphere>
+      <a-sphere material="color: #0000AA;
+                          roughness: 0.2;
+                          shader: flat;
+                          opacity: 0.5"
+                radius="0.5"
+                position="2 1.5 -6">
+      </a-sphere>  
+      
+    </a-scene>
+  </body>
+</html>

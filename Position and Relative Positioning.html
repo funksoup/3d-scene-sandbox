@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>   
+    <title>Basic primitives</title>    
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- green box | Parent Entity -->
+      <a-box color="#689F38"
+             width="8"
+             height="4.5"
+             depth="0.2"
+            position="0 3 -10">
+            <!-- circle | Child entity-->
+            <a-circle color="#333333"
+                      side="double"
+                      position="2 0 0.11"></a-circle>
+      </a-box>
+      
+      <!--- Circ;e -->
+      <a-circle color="#FFC107"
+                  side="double"
+                  position="-2 3 -9.89">
+      </a-circle>      
+      
+      <!-- cylinder -->
+      <a-cylinder color="#616161"
+             radius="2"
+             height="2"
+             
+                  
+              open-ended="true"
+                  side="double"
+                  position="0 0 -7">
+      </a-cylinder>
+      
+    </a-scene>
+  </body>
+</html>

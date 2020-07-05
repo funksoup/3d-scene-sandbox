@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>   
+    <title>Navigation Meshes</title>    
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.0/dist/aframe-extras.min.js"></script>
+
+
+  </head>
+  <body>
+    <a-scene background="color: #FFFFFF inspectpr-plugin-recast">
+      <!-- green box | Parent Entity -->
+
+      <!-- camera  righ -->
+      <a-entity movement-controls="speed: 0.15; constrainToNavMesh: true" position="0 0 2">
+        <!-- Camera -->
+        <a-entity camera position="0 1.6 0"
+                  look-controls="pointerLockEnabled: true">
+          <a-cursor></a-cursor>
+        </a-entity>
+      </a-entity>
+
+    <a-entity>
+      <!-- Ground -->
+      <a-plane color="#333333" shader="flat" rotation="-90 0 0" scale="8 6 1">
+      </a-plane>
+
+      <a-cylinder color="#AA0000" radius="0.5" position="1.5 0.5 0">
+    </a-cylinder>
+
+    <a-box color="#00AA00" width="0.5" depth="3" position="-1.5 0.5 0">
+    </a-box>
+  </a-entity>
+
+  <a-entity rotation="0 180 0" position="0 0 -6">
+      <!-- Ground -->
+      <a-plane color="#333333" shader="flat" rotation="-90 0 0" scale="8 6 1">
+      </a-plane>
+
+      <a-cylinder color="#AA0000" radius="0.5" position="1.5 0.5 0">
+    </a-cylinder>
+
+    <a-box color="#00AA00" width="0.5" depth="3" position="-1.5 0.5 0">
+    </a-box>
+  </a-entity>
+
+      
+    </a-scene>
+  </body>
+</html>
