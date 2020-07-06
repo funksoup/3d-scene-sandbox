@@ -4,6 +4,8 @@
 3d-scene-sandbox is a sandbox for exploring WebVR space creation using A-Frame. A combination of 3D models and 360-degree photospheres are used to create the immersive space.
 
 
+Live demo: https://funksoup.github.io/3d-scene-sandbox/loft.html
+
 ------
 
 ## Tech/Framework Used
