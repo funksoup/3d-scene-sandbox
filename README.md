@@ -47,7 +47,7 @@ Additionally, if you'd like to rotate the photosphere/sky, do so within the `<a-
 
 This gif demonstrates the application's functionality:
 
-<img src = "/images/loft-lake-view.gif" width="600">
+<img src = "/loft-scene/images/loft-lake-view.gif" width="600">
 
 
 
