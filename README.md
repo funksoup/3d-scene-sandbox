@@ -58,6 +58,8 @@ This project is licensed under the MIT license.
 
 ## Contributors
 
+Forked from Frans' <a href="https://github.com/Frans/A-Frame-Doodles">A-Frame-Doodles repo</a>.
+
 360-degree photosphere of <a href="https://flic.kr/p/P7AuQk">Lac à la Barbue by Martin Bélair via Flickr</a>.
 
 3D design of <a href="https://sketchfab.com/3d-models/apartment-interior-design-vr-ready-ce102c29aaf84a05a8607b2ac947728d">loft space by Marcin Lubecki via Sketchfab</a>.
