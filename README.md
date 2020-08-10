@@ -5,8 +5,8 @@
 
 
 Live demos: 
-https://funksoup.github.io/3d-scene-sandbox/loft.html
-https://funksoup.github.io/3d-scene-sandbox/loft-beach.html
+https://funksoup.github.io/3d-scene-sandbox/loft.html <br>
+https://funksoup.github.io/3d-scene-sandbox/loft-beach.html <br>
 https://funksoup.github.io/3d-scene-sandbox/classroom.html
 
 ------
