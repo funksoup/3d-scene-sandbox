@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>   
+    <title>Classroom</title>    
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.0/dist/aframe-extras.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <img id="sky" src="classroom-scene/images/Alps_PointedAndey.jpg" >
+        <!-- label id = loft or whatever it is, then reference it in line 25 -->
+        <a-asset-item id="classroom" src="classroom-scene/scene.gltf"></a-asset-item>
+      </a-assets>
+
+      <!-- Sky -->
+      <a-sky src="#sky" rotation="0 150 0"></a-sky>
+
+      <!-- Camera -->
+      <a-entity rotation="0 0 0" position="0 2 8">
+        <a-camera></a-camera>
+      </a-entity>
+
+      <!-- loft space -->
+      <a-entity scale="0.3 0.3 0.3" gltf-model="#classroom"></a-entity>
+      
+    </a-scene>
+  </body>
+</html>
